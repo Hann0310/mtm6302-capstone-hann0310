@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #B8F8FF; 
+    margin: 0;
+}
+
+.apod-container {
+    text-align: center;
+}
+
+#apod-image {
+    max-width: 100%;
+    border: 2px solid #000; 
+}
+
+.apod-details {
+    background-color: #5BEFFF; 
+    color: #000; 
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #707070; 
+    text-align: center;
+}
+
+#apod-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#apod-description {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#buttons-container {
+    background-color: #5BEFFF; 
+    border: 2px solid #707070; 
+    display: flex;
+    justify-content: center;
+}
+
+#view-full-image, #download-image {
+    background-color: #37C3D2; 
+    color: #000; 
+    border: 2px solid #707070; 
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#download-image {
+    text-decoration: none; 
+}
+
+#download-image:hover,
+#view-full-image:hover {
+    background-color: #1D8F99; 
+}
